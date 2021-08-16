@@ -1,0 +1,27 @@
+:root {
+  --spacing: 10px;
+  --blur: 5px;
+  --base: #ffc600;
+}
+
+* {
+  text-align: center;
+  background: rgb(0, 18, 78);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+.controls {
+  margin-bottom: 2rem;
+}
+img {
+  width: 600px;
+  height: 350px;
+  background-color: var(--base);
+  padding: var(--spacing);
+  filter: blur(var(--blur));
+  -webkit-filter: blur(var(--blur));
+}
+.h1 {
+  color: var(--base);
+}
